@@ -1,0 +1,47 @@
+.MainDiv {
+    border-color: white;
+    padding: 0.4rem 18% 0.4rem 18%;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 0.1rem;
+    border-bottom-width: 0.1rem;
+    background-color: rgb(180, 255, 180);
+}
+
+.MainDiv label {
+    font-size: calc(0.7rem + 1vw);
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+
+.MainDiv input {
+    width: 100%;
+    font-size: calc(0.6rem + 1vw);
+    padding: 0.4rem 0px 0.4rem 0px;
+    margin-bottom: 0.4rem;
+}
+
+.MainDiv button{
+    width: 100%;
+    background-color: rgb(0, 65, 10);
+    border-style: solid;
+    border-width: 0.1rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: calc(0.7rem + 0.1vw) 0% calc(0.7rem + 0.1vw) 0%;
+    font-size: calc(0.4rem + 0.8vw);
+    font-weight: bolder;
+    margin-bottom: 0.4rem;
+}
+
+.MainDiv button:hover {
+    background-color: rgb(30, 255, 30);
+}
+
+.MainDiv button:active {
+    background-color: rgb(30, 195, 30);
+}
