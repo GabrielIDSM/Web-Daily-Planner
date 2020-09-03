@@ -1,0 +1,33 @@
+.UniqueEvent{
+    background-color: rgb(210, 210, 255);
+    border-top-style: solid;
+    border-top-width: 0.2rem;
+    border-top-color: blue;
+    padding: 0.6rem 5% 0.6rem 5%;
+}
+
+.UniqueEvent .EventTitle{
+    width: 100%;
+}
+
+.UniqueEvent .EventTitle label{
+    font-size: calc(1.25rem + 0.55vw);
+}
+
+.UniqueEvent .Date{
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.UniqueEvent .Date label{
+    font-size: calc(0.8rem + 0.55vw);
+}
+
+.UniqueEvent .Details{
+    width: 100%;
+}
+
+.UniqueEvent .Details p{
+    font-size: calc(0.7rem + 0.55vw);
+    text-align: justify;
+}

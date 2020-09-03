@@ -1,0 +1,31 @@
+.EventsBarTitle {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 155);
+    height: calc(2.9rem + 0.5vw);
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.EventsBarTitle label{
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1rem + 0.9vw);
+}
+
+.BirthdaysBarTitle {
+    color: rgb(255, 255, 255);
+    background-color: rgb(215, 40, 40);
+    height: calc(2.9rem + 0.5vw);
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.BirthdaysBarTitle label{
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1rem + 0.9vw);
+}

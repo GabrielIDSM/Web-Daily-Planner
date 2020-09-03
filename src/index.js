@@ -6,6 +6,8 @@ import { Switch, Route } from 'react-router-dom';
 import { ProtectedRoute } from './ProtectedRoute';
 import { Login } from './Login'
 import { Dashboard } from './Dashboard';
+import { NewEvent } from './NewEvent';
+import { NewBirthday } from './NewBirthday';
 import './App.css';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Login} />
         <ProtectedRoute exact path="/dashboard" component={Dashboard} />
+        <ProtectedRoute exact path="/newevent" component={NewEvent} />
+        <ProtectedRoute exact path="/newbirthday" component={NewBirthday} />
       </Switch>
     </div>
   );
