@@ -64,8 +64,8 @@ class NewBirthday extends Component {
                 <Bar />
                 <div className="NewBirthday">
                     <form>
-                        <div className="TitleDiv">
-                            <label>New Birthday</label>
+                        <div>
+                            <label className="TitleDiv">New Birthday</label>
                         </div>
                         <div className="NewBirthdayTitle">
                             <label className="Lbl">Title</label>

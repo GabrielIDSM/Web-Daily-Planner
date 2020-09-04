@@ -1,17 +1,27 @@
 .MainDiv {
-    border-color: white;
-    padding: 0.4rem 18% 0.4rem 18%;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-width: 0.1rem;
-    border-bottom-width: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.4rem calc(18% + 1.8vw) 0.4rem calc(18% + 1.8vw);
     background-color: rgb(180, 255, 180);
 }
 
-.MainDiv .Lbl label {
+.TitleDiv {
+    font-size: calc(1.2rem + 0.95vw);
+    color: rgb(0, 65, 10);
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-style: solid;
+    border-width: 0.15rem;
+    border-color: rgb(0, 65, 10);
+}
+
+.MainDiv .Lbl {
     font-size: calc(0.8rem + 0.75vw);
     width: 100%;
-    text-align: left;
     display: block;
 }
 
@@ -52,6 +62,49 @@
     padding-bottom: 0.6rem;
 }
 
-.About{
+.About {
     background-color: rgb(0, 65, 10);
+}
+
+.Welcome {
+    background-color: rgb(0, 85, 0);
+    color: white;
+}
+
+.Welcome h1 {
+    font-size: calc(3rem + 1vw);
+    padding: 2% 5% 2% 5%;
+    text-transform: capitalize;
+}
+
+.Welcome h2 {
+    font-size: calc(0.8rem + 1vw);
+    padding: 1% 5% 1% 5%;
+    text-align: justify;
+}
+
+.Welcome ul {
+    padding: 1% 5% 2% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(0.5rem + 0.8vw);
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Welcome ul li {
+    border-style: solid;
+    border-width: 0.1rem;
+    text-transform: uppercase;
+    width: 30%;
+    text-align: center;
+    display: block;
+    padding: 4px 0px 4px 0px;
+    background-color: rgb(0, 65, 10);
+}
+
+.Welcome a {
+    color: white;
+    display: block;
+    height: 100%;
 }

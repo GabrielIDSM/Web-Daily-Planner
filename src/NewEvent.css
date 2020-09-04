@@ -8,11 +8,23 @@
     background-color: rgb(180, 255, 180);
 }
 
-.NewEvent .TitleDiv label{
-    font-size: calc(1rem + 0.75vw);
+.TitleDiv {
+    font-size: calc(1rem + 0.95vw);
+    color: rgb(0, 65, 10);
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-style: solid;
+    border-width: 0.15rem;
+    border-color: rgb(0, 65, 10);
 }
 
-.NewEvent label {
+.NewEvent .Lbl {
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
     font-size: calc(0.8rem + 0.75vw);
     width: 100%;
@@ -20,6 +32,7 @@
 }
 
 .NewEvent input {
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     font-size: calc(0.7rem + 0.75vw);
     padding: 0.4rem 0px 0.4rem 0px;
@@ -27,6 +40,7 @@
 }
 
 .NewEvent textarea{
+    font-family: Arial, Helvetica, sans-serif;
     resize: none;
     width: 100%;
     font-size: calc(0.7rem + 0.75vw);

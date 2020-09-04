@@ -71,10 +71,19 @@ class Login extends Component {
         return (
             <div className="Login">
                 <Bar />
+                <div className="Welcome">
+                    <h1>Organize your life with Web Daily Planner!</h1>
+                    <h2>Web Daily Planner is a project created by Gabriel Inácio.</h2>
+                    <ul>
+                        <li><a href="https://github.com/GabrielIDSM">Github Personal Profile</a></li>
+                        <li><a href="https://github.com/GabrielIDSM/Web-Daily-Planner">Project Page</a></li>
+                        <li><a href="https://github.com/GabrielIDSM/Web-Daily-Planner-API">API Project Page</a></li>
+                    </ul>
+                </div>
                 <div className="MainDiv">
                     <form>
-                        <div className="TitleDiv">
-                            <label className="Lbl">Login</label>
+                        <div>
+                            <label className="TitleDiv">Login</label>
                         </div>
                         <div className="EmailDiv">
                             <label className="Lbl">E-mail</label>
@@ -107,8 +116,8 @@ class Login extends Component {
                 </div>
                 <div className="MainDiv">
                     <form>
-                        <div className="TitleDiv">
-                            <label>Sign Up</label>
+                        <div>
+                            <label className="TitleDiv">Sign Up</label>
                         </div>
                         <div className="EmailDiv">
                             <label className="Lbl">E-mail</label>

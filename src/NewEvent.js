@@ -64,8 +64,8 @@ class NewEvent extends Component {
                 <Bar />
                 <div className="NewEvent">
                     <form>
-                        <div className="TitleDiv">
-                            <label>New Event</label>
+                        <div>
+                            <label className="TitleDiv">New Event</label>
                         </div>
                         <div className="NewEventTitle">
                             <label className="Lbl">Title</label>
