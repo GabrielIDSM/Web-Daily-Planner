@@ -24,10 +24,35 @@
 }
 
 .UniqueBirthday .Details{
+    margin-bottom: 0.5rem;
     width: 100%;
 }
 
 .UniqueBirthday .Details p{
     font-size: calc(0.7rem + 0.55vw);
     text-align: justify;
+}
+
+.UniqueBirthday div button {
+    width: 15%;
+    background-color: rgb(65, 0, 0);
+    border-style: solid;
+    border-width: 0.1rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: calc(0.35rem + 0.1vw) 0% calc(0.35rem + 0.1vw) 0%;
+    font-size: calc(0.4rem + 0.45vw);
+    font-weight: bolder;
+    margin-bottom: 0.25rem;
+}
+
+.UniqueBirthday div button:hover {
+    background-color: rgb(255, 30, 30);
+}
+
+.UniqueBirthday div button:active {
+    background-color: rgb(195, 30, 30);
 }

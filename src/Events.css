@@ -1,4 +1,4 @@
-.UniqueEvent{
+.UniqueEvent {
     background-color: rgb(210, 210, 255);
     border-top-style: solid;
     border-top-width: 0.2rem;
@@ -6,28 +6,53 @@
     padding: 0.6rem 5% 0.6rem 5%;
 }
 
-.UniqueEvent .EventTitle{
+.UniqueEvent .EventTitle {
     width: 100%;
 }
 
-.UniqueEvent .EventTitle label{
+.UniqueEvent .EventTitle label {
     font-size: calc(1.25rem + 0.55vw);
 }
 
-.UniqueEvent .Date{
+.UniqueEvent .Date {
     width: 100%;
     margin-bottom: 0.5rem;
 }
 
-.UniqueEvent .Date label{
+.UniqueEvent .Date label {
     font-size: calc(0.8rem + 0.55vw);
 }
 
-.UniqueEvent .Details{
+.UniqueEvent .Details {
     width: 100%;
+    margin-bottom: 0.5rem;
 }
 
-.UniqueEvent .Details p{
+.UniqueEvent .Details p {
     font-size: calc(0.7rem + 0.55vw);
     text-align: justify;
+}
+
+.UniqueEvent div button {
+    width: 15%;
+    background-color: rgb(0, 0, 65);
+    border-style: solid;
+    border-width: 0.1rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: calc(0.35rem + 0.1vw) 0% calc(0.35rem + 0.1vw) 0%;
+    font-size: calc(0.4rem + 0.45vw);
+    font-weight: bolder;
+    margin-bottom: 0.25rem;
+}
+
+.UniqueEvent div button:hover {
+    background-color: rgb(30, 30, 255);
+}
+
+.UniqueEvent div button:active {
+    background-color: rgb(30, 30, 195);
 }
